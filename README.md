@@ -7,3 +7,7 @@ The intent of this repository is to document the difference between the twitter 
 | algebird    |   5*n         | 1154         | 2.3 %                |
 | algebird    |   10*n        | 1410         | 0 %                  | 
 | algebird    |   100*n       | 1849         | 0%                   |
+
+Using set intersections I was able to use HashSet() and solve the problem in 1900 ms. 
+
+Next steps involve timing the serialization process as well as scaling up the bloomfilter experiments. 
